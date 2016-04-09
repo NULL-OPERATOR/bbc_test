@@ -1,0 +1,198 @@
+{
+
+  "version": "1.0",
+  "schema": "/ibl/v1/schema/ibl.json",
+  "atoz_programmes":
+
+  {
+
+    "character": "a",
+    "count": ​75,
+    "page": ​1,
+    "per_page": ​20,
+    "elements":
+
+    [
+
+      {
+
+        "id": "p02b4jth",
+        "type": "programme_large",
+        "title": "Abadas",
+        "images":
+
+        {
+
+          "type": "image",
+          "standard": "http://ichef.bbci.co.uk/images/ic/{recipe}/p02c72z7.jpg"
+
+        },
+        "synopses":
+        {
+
+          "large": "Rhaglen animeiddio i blant ifanc yn canolbwyntio ar gyflwyno geiriau newydd. Animation series for young children concentrating on introducing vocabulary.",
+          "small": "Rhaglen animeiddio i blant ifanc yn canolbwyntio ar gyflwyno geiriau newydd. Animation ...",
+          "medium": "Rhaglen animeiddio i blant ifanc yn canolbwyntio ar gyflwyno geiriau newydd. Animation series for young children concentrating on introducing vocabulary."
+
+        },
+        "suppliers": [ ],
+        "tleo_type": "series",
+        "categories":
+        [
+
+          "wales"
+
+        ],
+        "master_brand":
+        {
+
+          "id": "s4cpbs",
+          "titles":
+
+          {
+            "large": "S4C",
+            "small": "S4C",
+            "medium": "S4C"
+          },
+          "attribution": "s4c"
+
+        },
+        "lexical_sort_letter": "A",
+        "status": "available",
+        "count": ​8,
+        "initial_children":
+        [
+
+          {
+
+            "id": "p02hcm2r",
+            "live": false,
+            "type": "episode",
+            "title": "Abadas",
+            "images":
+
+            {
+
+              "type": "image",
+              "standard": "http://ichef.bbci.co.uk/images/ic/{recipe}/p02c72z7.jpg",
+              "inherited_from": "series"
+
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "p02b4jth",
+            "guidance": false,
+            "subtitle": "Meicroffon",
+            "synopses":
+            {
+
+              "large": "Mae'r Abadas wedi creu band pop ond mae rhywbeth ar goll. All gair newydd heddiw helpu? The Abadas have created a pop band but there's something missing. Can today's word help?",
+              "small": "Mae'r Abadas wedi creu band pop ond mae rhywbeth ar goll. All gair newydd heddiw helpu?...",
+              "medium": "Mae'r Abadas wedi creu band pop ond mae rhywbeth ar goll. All gair newydd heddiw helpu? The Abadas have created a pop band but there's something missing. Can today's word help?"
+
+            },
+            "versions":
+            [
+
+              {
+
+                "hd": false,
+                "id": "p03pfth3",
+                "kind": "technical-replacement",
+                "type": "version",
+                "download": true,
+                "duration":
+
+                {
+
+                  "text": "11 mins",
+                  "value": "PT11M"
+
+                },
+                "availability":
+                {
+
+                  "end": "2016-05-07T06:15:00Z",
+                  "start": "2016-04-07T06:15:00Z",
+                  "remaining":
+
+                  {
+                    "text": "Available for 27 days"
+                  }
+                },
+                "first_broadcast": "5 Jun 2012"
+
+              },
+              {
+
+                "hd": false,
+                "id": "p02hcm30",
+                "kind": "original",
+                "type": "version",
+                "download": true,
+                "duration":
+
+                {
+
+                  "text": "11 mins",
+                  "value": "PT11M"
+
+                },
+                "availability":
+                {
+
+                  "end": "2016-05-07T06:15:00Z",
+                  "start": "2016-04-07T06:15:00Z",
+                  "remaining":
+
+                  {
+                    "text": "Available for 27 days"
+                  }
+                },
+                "first_broadcast": "5 Jun 2012"
+              }
+
+            ],
+            "parent_id": "p02b4jth",
+            "suppliers": [ ],
+            "tleo_type": "series",
+            "categories":
+            [
+
+              "wales"
+
+            ],
+            "has_credits": false,
+            "master_brand":
+            {
+
+              "id": "s4cpbs",
+              "titles":
+
+              {
+                "large": "S4C",
+                "small": "S4C",
+                "medium": "S4C"
+              },
+              "attribution": "s4c"
+
+            },
+            "release_date": "5 Jun 2012",
+            "related_links": [ ],
+            "next_broadcast":
+
+            {
+              "channel_title": "S4C",
+              "scheduled_start": "2016-04-14T10:00:00.000Z"
+            },
+            "audio_described": false,
+            "release_date_time": "2012-06-05T00:00:00.000Z",
+            "lexical_sort_letter": "A"
+          }
+        ]
+
+      }
+    ]
+  }
+
+}
