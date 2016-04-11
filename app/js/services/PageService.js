@@ -9,6 +9,15 @@
       return Array.from(Array(total), (x, i) => i + 1)
     }
 
+    self.createLabels = function() {
+      var labels = []
+      for (var i = 65; i < 91; i++) {
+        labels.push(String.fromCharCode(i));
+      }
+      labels.push('0-9')
+      return labels
+    }
+
 
   return PageService;
   };

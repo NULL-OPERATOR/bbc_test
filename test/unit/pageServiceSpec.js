@@ -18,4 +18,9 @@ describe('PageService', function() {
   it('rounds up the page number', function() {
     expect(pageService.pageCount(21)).toEqual( [1, 2] )
   })
+
+  it('creates labels A to Z and 0-9 in an array', function() {
+    var expected = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0-9"]
+    expect(pageService.createLabels()).toEqual(expected)
+  })
 });
