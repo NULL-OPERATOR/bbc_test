@@ -6,10 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "express": "^4.13.4",
-    "gzippo": "^0.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "karma": "^0.12.16",
     "karma-chrome-launcher": "^0.1.4",
@@ -22,8 +19,7 @@
     "shelljs": "^0.2.6"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "prestart": "npm install"
+
 
   },
   "author": "rj",
