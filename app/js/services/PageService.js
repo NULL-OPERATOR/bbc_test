@@ -18,6 +18,9 @@
       return labels
     }
 
+    self.imgUrl = function(url, size) {
+      return url.replace('{recipe}', size)
+    }
 
 
   return PageService;
