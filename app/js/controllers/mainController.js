@@ -2,6 +2,7 @@
 (function () {
   function MainCtrl ($http, PageService) {
     var self = this;
+    self.currentLetter = "a"
     self.pageLabels = PageService.createLabels();
 
     self.getPage = function(letter, page) {
