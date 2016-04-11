@@ -1,0 +1,9 @@
+
+body {
+  /*background-color: grey;*/
+}
+
+
+.page-label > p {
+  font-weight: bolder;
+}

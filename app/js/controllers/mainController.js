@@ -15,6 +15,10 @@
       })
     }
 
+    self.getUrl = function(url, size) {
+      return PageService.imgUrl(url, size);
+    }
+
     self.getPage('a', 1)
 }
   angular
