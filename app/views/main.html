@@ -1,8 +1,11 @@
-<nav class="navbar-fixed-top navbar-inverse" role="navigation">
+<nav class="navbar-fixed-top " role="navigation">
   <section class="container">
     <div class="navbar-header">
       <span class="glyphicon glyphicon-align-justify navbar-toggle" data-toggle="collapse" data-target="#nav-collapse"></span>
-      <a class="navbar-brand">iPlayer</a>
+      <a class="navbar-brand">
+        <img role="img" class="js-svg" src="http://static.bbci.co.uk/tviplayer/1.102.0/img/navigation/iplayer_pink.svg" alt="BBC iPlayer" data-fallback="http://static.bbci.co.uk/tviplayer/1.102.0/img/navigation/iplayer_pink.png" height="36" width="111">
+      </a>
+
     </div>
     <div class="collapse navbar-collapse" id="nav-collapse">
       <ul class="navbar-nav nav" ng-repeat="label in main.pageLabels">
@@ -12,7 +15,7 @@
       </ul>
     </div>
   </section>
-  <section class="container">
+  <section class="container pagination-centered" ng-show="main.showPages()">
     <ul class="pagination" ng-repeat="page in main.pages">
       <li class="btn" ng-click="main.getPage(main.currentLetter, page)">
         <a  ng-bind="page"></a>
@@ -21,7 +24,7 @@
   </section>
 </nav>
 
-<div class="container">
+<section class="container">
   <div class="row" >
     <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="item in main.items">
       <a class="thumbnail">
@@ -32,4 +35,4 @@
       </a>
     </div>
   </div>
-</div>
+</section>

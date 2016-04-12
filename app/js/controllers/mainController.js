@@ -19,6 +19,10 @@
       return PageService.imgUrl(url, size);
     }
 
+    self.showPages = function() {
+      return self.pages.length > 1
+    }
+
     self.getPage('a', 1)
 }
   angular

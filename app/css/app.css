@@ -1,8 +1,40 @@
 
 body {
-  /*background-color: grey;*/
+  background-color: #EFEEEE;
 }
 
+li {
+  cursor: pointer;
+  cursor: hand;
+  text-align: center;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 13px;
+    background-color: #F7F7F7;
+}
+
+#pages {
+  left: 38%;
+}
+
+.pagination > li > span {
+  position: relative;
+  padding: 6px 12px;
+  margin-left: -1px;
+  text-decoration: none;
+  background-color: #F7f7f7;
+  border: none;
+}
+
+.navbar-fixed-top {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
 
 .page-label > p {
   font-weight: bolder;
