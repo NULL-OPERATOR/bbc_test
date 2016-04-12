@@ -7,10 +7,11 @@ describe('iplayer App', function() {
       browser.get('app/');
     });
 
-    it('have a list alphabetically of buttons', function() {
+    it('A-Z + 0-9 list of labels', function() {
       var ButtonLabels = element.all(by.repeater('label in main.pageLabels'));
       expect(ButtonLabels.count()).toBe(27);
       expect(ButtonLabels.get(0).getText()).toBe("A");
+      expect(ButtonLabels.get(26).getText()).toBe("0-9");
     });
 
     it('doesnt have a list of items longer than 20', function() {

@@ -1,13 +1,7 @@
 // 'use strict';
 // (function() {
-//   function imgRecipe () {
-//   	return {
-//   		restrict: 'A',
-//   		link: function(scope, elem, attr, ctrl) {
-//   			elem.draggable();
-//   		}
-//   	};
-//   }
+//   function imgUrl() {
+
 // 	angular
 // 	  .module('iplayerApp')
 // 	  .directive('imgRecipe', imgRecipe);

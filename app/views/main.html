@@ -12,7 +12,7 @@
       </ul>
     </div>
   </section>
-  <section>
+  <section class="container">
     <ul class="pagination" ng-repeat="page in main.pages">
       <li class="btn" ng-click="main.getPage(main.currentLetter, page)">
         <a  ng-bind="page"></a>
@@ -23,12 +23,11 @@
 
 <div class="container">
   <div class="row" >
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb" ng-repeat="item in main.items">
+    <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="item in main.items">
       <a class="thumbnail">
-        <img class="img-responsive" src="">
-        <img class="programme-img" ng-src=main.getUrl(item.images.standard,'192x108')></img>
-        <p ng-bind="item.next_broadcast.channel_title"></p>
-        <p ng-bind="item.next_broadcast.scheduled_start"></p>
+        <img class="programme-img" src="{{main.getUrl(item.images.standard,'192x108')}}"></img>
+        <h4 ng-bind="item.title"></h4>
+        <p ng-bind="item.initial_children[0].versions[0].availability.remaining.text"></p>
         <p ng-bind="item.synopses.small"></p>
       </a>
     </div>
