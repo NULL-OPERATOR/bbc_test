@@ -9,7 +9,6 @@
     self.getPage = function(letter, page) {
       self.currentLetter = letter
       ProgrammeDataService.getData(letter, page).then(function(response) {
-        // console.log(response)
         self.items = response.data.atoz_programmes.elements;
         self.pages = PageService.pageCount(response.data.atoz_programmes.count);
       })

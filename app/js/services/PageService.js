@@ -22,7 +22,6 @@
       return url.replace('{recipe}', size)
     }
 
-
   return PageService;
   };
 angular

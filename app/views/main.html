@@ -5,7 +5,6 @@
       <a class="navbar-brand">
         <img role="img" class="js-svg" src="http://static.bbci.co.uk/tviplayer/1.102.0/img/navigation/iplayer_pink.svg" alt="BBC iPlayer" data-fallback="http://static.bbci.co.uk/tviplayer/1.102.0/img/navigation/iplayer_pink.png" height="36" width="111">
       </a>
-
     </div>
     <div class="collapse navbar-collapse" id="nav-collapse">
       <ul class="navbar-nav nav" ng-repeat="label in main.pageLabels">
@@ -16,7 +15,7 @@
     </div>
   </section>
 
-  <section class="container pagination-centered" ng-show="main.showPages()">
+  <section class="container" ng-show="main.showPages()">
     <ul class="pagination" ng-repeat="page in main.pages">
       <li class="btn" ng-click="main.getPage(main.currentLetter, page)">
         <a  ng-bind="page"></a>

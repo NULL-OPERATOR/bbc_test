@@ -3,9 +3,9 @@
 
 
 ### Setting up the project
-This project requires an up to date version of Node.js
-Also Java
-first you wil need to clone it down from git and cd into the repo
+This project requires an up to date version of Node.js  
+
+first you wil need to clone it down from git and cd into the repo  
 ```
 git clone https://github.com/NULL-OPERATOR/bbc_test.git && cd bbc_test
 ```
