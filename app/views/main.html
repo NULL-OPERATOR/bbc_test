@@ -15,6 +15,7 @@
       </ul>
     </div>
   </section>
+
   <section class="container pagination-centered" ng-show="main.showPages()">
     <ul class="pagination" ng-repeat="page in main.pages">
       <li class="btn" ng-click="main.getPage(main.currentLetter, page)">
@@ -35,4 +36,12 @@
       </a>
     </div>
   </div>
+</section>
+
+<section class="container pagination-centered" ng-show="main.showPages()">
+  <ul class="pagination" ng-repeat="page in main.pages">
+    <li class="btn" ng-click="main.getPage(main.currentLetter, page)">
+      <a  ng-bind="page"></a>
+    </li>
+  </ul>
 </section>

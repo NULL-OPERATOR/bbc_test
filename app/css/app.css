@@ -1,4 +1,3 @@
-
 body {
   background-color: #EFEEEE;
 }
@@ -7,6 +6,10 @@ li {
   cursor: pointer;
   cursor: hand;
   text-align: center;
+}
+
+.collapse {
+  margin-bottom: 20px;
 }
 
 .navbar-nav > li > a {
